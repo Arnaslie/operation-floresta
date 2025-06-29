@@ -1,7 +1,0 @@
-{
-  "model_version": "gpt-4o-mini-2024-07-18",
-  "dataset_id": "ArcticDEM 10m Tile 07_40 (v4.1)",
-  "dataset_source": "s3://pgc-opendata-dems/arcticdem/mosaics/v4.1/10m/07_40/07_40_10m_v4.1_dem.tif",
-  "dataset_license": "CC-BY-4.0",
-  "analysis_date": "May 19, 2025"
-}
