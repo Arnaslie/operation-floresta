@@ -68,7 +68,7 @@ This project is organized into **three modular notebooks**, each corresponding t
 
 ### ✨ Step 3: GPT-Guided Interpretation & Site Selection
 **Notebook**: `openai_reasoning.ipynb`  
-- Uses GPT-4 to interpret the classifier output and prioritize candidates.  
+- Uses GPT-4.1 to interpret the classifier output and prioritize candidates.  
 - Performs generative reasoning to select the two most promising ADE sites.  
 - Outputs a final summary table with coordinates and justification.
 
