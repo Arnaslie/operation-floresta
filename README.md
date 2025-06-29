@@ -7,7 +7,7 @@ This project introduces a **novel AI-assisted pipeline** to identify potential n
 - **Synthetic test sites generation**
 - **Remote sensing**  
 - **Machine learning**  
-- **GPT-4–based generative reasoning**,  
+- **GPT-4.1–based generative reasoning**,  
 
 we build a replicable framework that links Indigenous settlement logic to environmental signatures—enhancing archaeological discovery while honoring cultural context.
 
