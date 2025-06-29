@@ -42,7 +42,7 @@ We use publicly available environmental data collected via satellite or airborne
 
 ### Novelty: GPT-Generated Test Site Coordinates ✨
 
-We used **GPT-4** to generate **50 hypothetical site coordinates** in the Upper Xingu, simulating culturally and environmentally plausible locations not included in the training data. This step served two purposes:
+We used **GPT-4.1** to generate **50 hypothetical site coordinates** in the Upper Xingu, simulating culturally and environmentally plausible locations not included in the training data. This step served two purposes:
 
 1. **Synthetic Test Generation**: GPT selected locations based on regional terrain, settlement logic, and environmental patterns drawn from its knowledge base.
 2. **Post-prediction Reasoning**: For top-ranked predictions, GPT performed qualitative reasoning to interpret spatial plausibility based on cultural patterns and terrain resemblance to known sites.
