@@ -11,7 +11,7 @@ This project introduces a **novel AI-assisted pipeline** to identify potential n
 
 we build a replicable framework that links Indigenous settlement logic to environmental signatures—enhancing archaeological discovery while honoring cultural context.
 
-![AI-assisted archaeological discovery pipeline](figures/project_flowchart.png)
+![AI-assisted archaeological discovery pipeline](project_flowchart.png)
 ---
 
 ## Methods Overview
