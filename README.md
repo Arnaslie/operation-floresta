@@ -11,6 +11,7 @@ This project introduces a **novel AI-assisted pipeline** to identify potential n
 
 we build a replicable framework that links Indigenous settlement logic to environmental signatures—enhancing archaeological discovery while honoring cultural context.
 
+![AI-assisted archaeological discovery pipeline](figures/flowchart.png)
 ---
 
 ## Methods Overview
@@ -42,18 +43,6 @@ We use publicly available environmental data collected via satellite or airborne
 
 ---
 
-### Machine Learning Model
-- **Model**: Random Forest classifier  
-- **Training**: Stratified 5-fold cross-validation  
-- **Target**: Multiclass label — `ADE`, `earthwork`, or `non-site`  
-- **Interpretability**: SHAP values to identify important predictors:
-  - River distance  
-  - Soil carbon  
-  - Vegetation index stability  
-  - Elevation  
-
----
-
 ### Novelty: GPT-Generated Test Site Coordinates ✨
 
 We used **GPT-4** to generate **50 hypothetical site coordinates** in the Upper Xingu, simulating culturally and environmentally plausible locations not included in the training data. This step served two purposes:
@@ -65,14 +54,38 @@ This dual application of GPT represents a **novel method** in archaeological dis
 
 ---
 
-### Proposed Field Validation
-Top candidate sites are intended for future collaborative validation with:
-- **Kuikuro Institute for Indigenous Technology (IKTI)**
-- **Museu Paraense Emílio Goeldi**
+## 🔁 Reproducing Our Workflow
 
-Proposed methods include:
-- Drone-based LiDAR scanning  
-- Soil sampling (for ADE confirmation)  
-- Oral history integration with local knowledge holders  
+This project is organized into **three modular notebooks**, each corresponding to a key stage of our AI-guided archaeological discovery pipeline:
+
+### 🧱 Step 1: Data Collection & Feature Engineering
+**Notebook**: `UpperXingu_data.ipynb`  
+- Retrieves environmental and geospatial features for both training and GPT-simulated test sites.  
+- Outputs a `.csv` with 32 features for ∼2,000 labeled sites and 50 synthetic test sites.
+
+### 🌲 Step 2: Machine Learning Classification
+**Notebook**: `Footprint.ipynb`  
+- Trains a Random Forest classifier on labeled ADE/earthwork/other sites.  
+- Evaluates feature importance and predicts site classes for the test set.  
+- Produces per-site class probabilities and ranked outputs.
+
+### ✨ Step 3: GPT-Guided Interpretation & Site Selection
+**Notebook**: `OpenAI_reasoning.ipynb`  
+- Uses GPT-4 to interpret the classifier output and prioritize candidates.  
+- Performs generative reasoning to select the two most promising ADE sites.  
+- Outputs a final summary table with coordinates and justification.
+
+---
+
+## 📍 Final Predicted Sites for Field Validation
+
+| Site | Latitude   | Longitude  | ADE Probability |
+|------|------------|------------|-----------------|
+| 1    | -11.4869   | -55.3030   | 0.458           |
+| 2    | -11.3475   | -55.2940   | 0.444           |
+
+These candidate sites are situated on elevated terra firme ridges within 25 km of a major river, in ecologically stable regions—aligning with known ADE settlement patterns.
+
+---
 
 
