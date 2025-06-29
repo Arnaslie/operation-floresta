@@ -28,10 +28,7 @@ We use publicly available environmental data collected via satellite or airborne
 ---
 
 ### Training Data
-- 2,021 labeled sites from Walker et al. (2022), categorized as:
-  - 455 ADE  
-  - 1,253 Earthworks  
-  - 373 Non-sites
+- 2,073 labeled sites from Walker et al. (2022) including ADE, earthwork and others.
 
 ### Feature Matrix (32 Total Variables)
 - **Soil**: clay %, organic carbon, pH, bulk density, cation exchange capacity  
