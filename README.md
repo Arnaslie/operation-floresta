@@ -1,4 +1,5 @@
 ## Ancient Footprints, Modern Pathways to Sustainability
+AI-Guided Discovery of Amazonian Dark Earths and Earthworks in the Upper Xingu
 
 The **Upper Xingu** region of Brazil, long inhabited by the **Kuikuro** and other Xinguano groups, holds one of the most intricate pre-Columbian landscapes in Amazonia—marked by ringed settlements, canals, engineered soils (ADE), and forest management systems. While prior studies have illuminated the spatial logic of these "garden cities," much of the region remains **unmapped** and **underexplored**.
 
