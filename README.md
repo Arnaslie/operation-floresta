@@ -11,7 +11,7 @@ This project introduces a **novel AI-assisted pipeline** to identify potential n
 
 we build a replicable framework that links Indigenous settlement logic to environmental signatures—enhancing archaeological discovery while honoring cultural context.
 
-![AI-assisted archaeological discovery pipeline](figures/flowchart.png)
+![AI-assisted archaeological discovery pipeline](figures/project_flowchart.png)
 ---
 
 ## Methods Overview
@@ -64,13 +64,13 @@ This project is organized into **three modular notebooks**, each corresponding t
 - Outputs a `.csv` with 32 features for ∼2,000 labeled sites and 50 synthetic test sites.
 
 ### 🌲 Step 2: Machine Learning Classification
-**Notebook**: `Footprint.ipynb`  
+**Notebook**: `Footprint_fullanalysis.ipynb`  
 - Trains a Random Forest classifier on labeled ADE/earthwork/other sites.  
 - Evaluates feature importance and predicts site classes for the test set.  
 - Produces per-site class probabilities and ranked outputs.
 
 ### ✨ Step 3: GPT-Guided Interpretation & Site Selection
-**Notebook**: `OpenAI_reasoning.ipynb`  
+**Notebook**: `openai_reasoning.ipynb`  
 - Uses GPT-4 to interpret the classifier output and prioritize candidates.  
 - Performs generative reasoning to select the two most promising ADE sites.  
 - Outputs a final summary table with coordinates and justification.
