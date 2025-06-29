@@ -22,7 +22,7 @@ We use GPT to select locations based on regional terrain, settlement logic, and 
 We use publicly available environmental data collected via satellite or airborne platforms to extract relevant features:
 - **Sentinel-2 imagery** for vegetation indices (NDVI, BSI, NDBI)
 - **LiDAR-derived DEM** for elevation and slope
-- **WorldClim v3** for climate variables (temperature, precipitation, seasonality)
+- **WorldClim v2** for climate variables (temperature, precipitation, seasonality)
 - **ISRIC SoilGrids** for soil composition (clay %, pH, carbon content)
 
 ---
